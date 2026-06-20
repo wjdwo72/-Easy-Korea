@@ -7,7 +7,7 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 
 export const metadata: Metadata = {
   title: 'Easy Korea — Travel Services for Visitors',
-  description: 'All-in-one travel services for foreigners visiting Korea. Luggage transfer, tours, hotel, medical, and more.',
+  description: 'All-in-one travel services for foreigners visiting Korea.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
