@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "contact": "Contact",
+    "login": "Sign In",
+    "logout": "Sign Out"
+  },
+  "search": {
+    "placeholder": "Search for services...",
+    "voice": "Voice search"
+  },
+  "services": {
+    "luggage":     { "label": "Luggage Transfer",    "desc": "Time / location / size auto-routing" },
+    "tours":       { "label": "Day Tours",            "desc": "Region & theme-based booking" },
+    "localcard":   { "label": "Dongbaek Pass", "desc": "Digital voucher issuance" },
+    "hotel":       { "label": "Budget Hotel",         "desc": "Room booking & matching" },
+    "medical":     { "label": "Medical / Beauty",     "desc": "Deposit payment (no-show prevention)" },
+    "experience":  { "label": "Experiences",          "desc": "Time-slot & capacity management" },
+    "vip":         { "label": "VIP Concierge",        "desc": "1-on-1 custom consultation & protocol" }
+  },
+  "comingSoon": {
+    "title": "Opening Soon",
+    "description": "This service is coming soon. Get notified when it launches!",
+    "notifyMe": "Notify Me",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "success": "You'll be notified when this service launches!"
+  },
+  "booking": {
+    "title": "Luggage Transfer",
+    "subtitle": "Door-to-door luggage delivery across Korea",
+    "date": "Pickup Date",
+    "time": "Pickup Time",
+    "flight": "Flight Number",
+    "flightPlaceholder": "e.g. KE123",
+    "from": "Pickup Location",
+    "to": "Delivery Location",
+    "fromPlaceholder": "Hotel, airport, station...",
+    "toPlaceholder": "Hotel, airport, station...",
+    "luggageSize": "Luggage Size",
+    "quantity": "Quantity",
+    "notes": "Special Notes",
+    "notesPlaceholder": "Fragile items, special handling...",
+    "price": "Price",
+    "perBag": "per bag",
+    "total": "Total",
+    "confirm": "Confirm Booking",
+    "success": "Booking confirmed! You'll receive a confirmation via Telegram.",
+    "sizes": {
+      "small":  { "label": "Small",  "desc": "Carry-on / under 10 kg",  "price": 15000 },
+      "medium": { "label": "Medium", "desc": "Check-in / 10–23 kg",     "price": 25000 },
+      "large":  { "label": "Large",  "desc": "Oversized / 23 kg+",      "price": 35000 }
+    }
+  }
+}

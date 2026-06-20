@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "contact": "お問い合わせ",
+    "login": "ログイン",
+    "logout": "ログアウト"
+  },
+  "search": {
+    "placeholder": "サービスを検索...",
+    "voice": "音声検索"
+  },
+  "services": {
+    "luggage":     { "label": "荷物配送",          "desc": "時間・位置・サイズによる自動化" },
+    "tours":       { "label": "日帰りツアー",       "desc": "地域・テーマ別予約" },
+    "localcard":   { "label": "동백패스", "desc": "デジタルバウチャー発行" },
+    "hotel":       { "label": "格安ホテル",         "desc": "客室予約・マッチング" },
+    "medical":     { "label": "医療・美容",          "desc": "デポジット決済（無断キャンセル防止）" },
+    "experience":  { "label": "体験",               "desc": "時間帯別定員管理" },
+    "vip":         { "label": "VIPコンシェルジュ", "desc": "1対1オーダーメイド相談・サービス" }
+  },
+  "comingSoon": {
+    "title": "近日公開",
+    "description": "このサービスは近日公開予定です。通知を受け取りましょう！",
+    "notifyMe": "通知を受け取る",
+    "emailPlaceholder": "メールアドレスを入力",
+    "subscribe": "登録する",
+    "success": "サービス開始時にお知らせします！"
+  },
+  "booking": {
+    "title": "荷物配送",
+    "subtitle": "韓国全土ドアツードア荷物配送",
+    "date": "ピックアップ日",
+    "time": "ピックアップ時間",
+    "flight": "便名",
+    "flightPlaceholder": "例: KE123",
+    "from": "ピックアップ場所",
+    "to": "配送場所",
+    "fromPlaceholder": "ホテル、空港、駅...",
+    "toPlaceholder": "ホテル、空港、駅...",
+    "luggageSize": "荷物サイズ",
+    "quantity": "個数",
+    "notes": "特記事項",
+    "notesPlaceholder": "壊れ物注意、特別な取り扱い...",
+    "price": "料金",
+    "perBag": "個あたり",
+    "total": "合計",
+    "confirm": "予約を確定",
+    "success": "予約が完了しました！テレグラムで確認メッセージをお送りします。",
+    "sizes": {
+      "small":  { "label": "小型", "desc": "機内持ち込み / 10kg未満", "price": 15000 },
+      "medium": { "label": "中型", "desc": "預け入れ / 10–23kg",      "price": 25000 },
+      "large":  { "label": "大型", "desc": "特大 / 23kg以上",         "price": 35000 }
+    }
+  }
+}

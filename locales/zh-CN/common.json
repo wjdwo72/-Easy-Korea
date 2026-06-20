@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "contact": "联系我们",
+    "login": "登录",
+    "logout": "退出"
+  },
+  "search": {
+    "placeholder": "搜索服务...",
+    "voice": "语音搜索"
+  },
+  "services": {
+    "luggage":     { "label": "行李转运",     "desc": "时间/坐标/规格数据自动化" },
+    "tours":       { "label": "一日游",        "desc": "按地区/主题预订" },
+    "localcard":   { "label": "동백패스", "desc": "数字凭证发放" },
+    "hotel":       { "label": "经济型酒店",    "desc": "客房预订与匹配" },
+    "medical":     { "label": "医疗/美容",     "desc": "押金支付流程（防止爽约）" },
+    "experience":  { "label": "体验活动",      "desc": "时段定员管理" },
+    "vip":         { "label": "VIP礼宾",       "desc": "一对一定制咨询与礼遇" }
+  },
+  "comingSoon": {
+    "title": "即将推出",
+    "description": "该服务即将推出。立即订阅获取通知！",
+    "notifyMe": "通知我",
+    "emailPlaceholder": "输入您的邮箱",
+    "subscribe": "订阅",
+    "success": "服务上线时我们会通知您！"
+  },
+  "booking": {
+    "title": "行李转运",
+    "subtitle": "韩国全境门到门行李配送",
+    "date": "取件日期",
+    "time": "取件时间",
+    "flight": "航班号",
+    "flightPlaceholder": "例: KE123",
+    "from": "取件地点",
+    "to": "送达地点",
+    "fromPlaceholder": "酒店、机场、车站...",
+    "toPlaceholder": "酒店、机场、车站...",
+    "luggageSize": "行李尺寸",
+    "quantity": "数量",
+    "notes": "特殊说明",
+    "notesPlaceholder": "易碎物品、特殊处理...",
+    "price": "价格",
+    "perBag": "每件",
+    "total": "总计",
+    "confirm": "确认预订",
+    "success": "预订成功！我们将通过Telegram发送确认消息。",
+    "sizes": {
+      "small":  { "label": "小型", "desc": "随身行李 / 10kg以下", "price": 15000 },
+      "medium": { "label": "中型", "desc": "托运行李 / 10–23kg",  "price": 25000 },
+      "large":  { "label": "大型", "desc": "超大行李 / 23kg以上", "price": 35000 }
+    }
+  }
+}
