@@ -89,7 +89,7 @@ export default function ServiceGrid() {
 
   return (
     <>
-      <div className="flex flex-nowrap justify-center gap-2 sm:gap-4 w-full overflow-x-auto px-2 pt-3 pb-1 scrollbar-hide">
+      <div className="grid grid-cols-4 sm:flex sm:flex-nowrap sm:justify-center gap-3 sm:gap-4 w-full px-2 pt-3 pb-1">
         {SERVICES.map(svc => {
           const Icon = svc.icon;
           return (
