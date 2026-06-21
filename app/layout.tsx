@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist } from 'next/font/google';
 import './globals.css';
 import I18nProvider from '@/lib/i18n/I18nProvider';
+import Tracker from '@/components/Tracker';
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 
@@ -14,7 +15,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={geist.variable}>
       <body className="min-h-screen bg-white antialiased">
-        <I18nProvider>{children}</I18nProvider>
+        <I18nProvider>
+          <Tracker />
+          {children}
+        </I18nProvider>
       </body>
     </html>
   );

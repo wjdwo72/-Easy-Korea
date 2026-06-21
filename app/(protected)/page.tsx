@@ -6,7 +6,7 @@ import Header from '@/components/layout/Header';
 import SearchBar from '@/components/layout/SearchBar';
 import ServiceGrid from '@/components/home/ServiceGrid';
 import { supabase } from '@/lib/supabase';
-import { Settings } from 'lucide-react';
+import { Settings, BarChart2 } from 'lucide-react';
 import type { User } from '@supabase/supabase-js';
 
 export default function HomePage() {
@@ -40,13 +40,22 @@ export default function HomePage() {
 
       <footer className="relative text-center py-6 text-xs text-gray-400">
         © 2024 Easy Korea. All rights reserved.
-        <button
-          onClick={() => router.push('/settings')}
-          className="absolute right-4 bottom-5 p-2 text-gray-300 hover:text-gray-500 transition-colors"
-          title="관리자 설정"
-        >
-          <Settings size={16} />
-        </button>
+        <div className="absolute right-4 bottom-4 flex gap-2">
+          <button
+            onClick={() => router.push('/admin')}
+            className="p-2 text-gray-300 hover:text-gray-500 transition-colors"
+            title="방문자 분석"
+          >
+            <BarChart2 size={16} />
+          </button>
+          <button
+            onClick={() => router.push('/settings')}
+            className="p-2 text-gray-300 hover:text-gray-500 transition-colors"
+            title="관리자 설정"
+          >
+            <Settings size={16} />
+          </button>
+        </div>
       </footer>
     </div>
   );
